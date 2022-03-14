@@ -1,0 +1,97 @@
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.logo_container h1{
+	color: black;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.logo_container h1 span{
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.logo_container h1 p{
+	text-align: center; 
+	font-weight: 400;
+	font-size: 20px;
+		
+}	
+.logo_cotainer navi_0{
+	vertical-align: center;
+	font-family: 'Comic Sans MS';
+
+}
+
+##########################################
+
+.navi_0 ul {
+    position: right;
+}
+.navi_0 li {
+	display: inline-block;
+    padding: 20px 0 20px;
+   
+}
+.navi_0 a:hover, a:focus, a:active {
+    color: yellow;
+    text-decoration: none;
+}
+.navi_0 a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+.navi_0 a {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 10px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 16px;
+	font-weight: 200;
+	text-transform: none;
+	transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: orange;
+}
+.navi_0 a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: pink;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+.navi_0 a:active::before {
+    background-color: #000;
+}
+.navi_0 a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+###########18.06.21#################
+
+float right and left: do this
+	
+.header :: after{
+	content:'';
+	display: table;
+	clear: both;
+}
+
+######################################

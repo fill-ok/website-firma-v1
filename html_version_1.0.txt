@@ -1,0 +1,45 @@
+######	html version 1.0 #######
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link  rel="stylesheet" href="style.css" type="text/css">
+		<title>Dachdecker | Gorselink</title>
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<header><img src="images/logo(platzhalter).png" alt="Logo"></header>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="leistungen.html">Leistungen</a></li>
+					<li><a href="referenzen.html">Referenzen</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</nav>
+			<section>Leistungen</section>
+			<footer>
+				<ul>
+					<h3><p id="navi">Navigation</p></h3>
+					<p><li><a href="index.html">Home</a></li></p>
+					<p><li><a href="leistungen.html">Leistungen</a></li></p>
+					<p><li><a href="referenzen.html">Referenzen</a></li></p>
+					<p><li><a href="kontakt.html">Kontakt</a></li></p>
+				</ul>
+				<p><a>&copy;  2021 test</a></p>
+			</footer>
+		</div>
+	</body>
+
+
+
+
+</html>
+
+###############################

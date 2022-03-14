@@ -1,0 +1,379 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+.page-wrapper{
+	min-height: 100%;
+}
+	/* begin of header*/
+	
+.header{
+	width:  100%;
+	height: 88px;
+	display: block;
+	font-size: 20px;
+}
+
+#logo-header{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+	padding: 4px 0;
+}
+
+.inner-header{
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+.logo-container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.logo-container h1{
+	height: 80%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	color: #70d308;
+}
+
+#und-header{
+	font-weight: 100;
+	color: #8f8e8c;
+}
+
+#dach-header{
+	font-weight: 100;
+	color: #8f8e8c;
+}
+.logo-container h1 span{
+	font-weight: 800;
+	font-size: 20px;
+}
+
+.logo-container h1 p{
+	text-align: center; 
+	font-weight: 800;
+	font-size: 20px;
+}	
+
+.hr-header{
+	color: #eee;
+	opacity: 0.25;
+}
+
+	
+	/* begin of navi-0*/
+	
+.navi-0{
+	height: 100%;
+}
+.navi-0 ul{
+	margin: 0;
+	padding:0;
+
+	list-style: none;
+	float: right;
+}
+.navi-0 li {
+	display: inline-block;
+    padding: 20px 0 20px;
+}
+
+.navi-0 .btn{
+  position: relative;
+  color: #70d308;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  margin: 3px 0;
+  border: 2px solid  white;
+  padding: 8px 20px;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.navi-0 .btn::before{
+  background: #8f8e8c;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.navi-0 .btn1::before{
+  width: 0%;
+  height: 100%;
+}
+
+.navi-0 .btn1:hover::before{
+  width: 100%;
+}
+
+	/* begin of section*/
+	
+.section-kontakt{
+	height: 100%;
+	padding:0px;
+	margin: 0px;
+}
+
+.section-kontakt .kontakt-section-h2{
+	width: 100%;
+	font-family: arial, sans-serif;
+	font-weight: 700;
+	color: #70d308;
+	padding: 0px;
+	padding-bottom: 10px;
+	float: left; 
+	text-transform: uppercase;
+}
+
+	
+	/* begin of footer*/
+	
+	/* begin of footer-navigation*/
+.footer-0{
+	position:absolute;
+    bottom: 0;
+	width: 100%;
+	height: 400px;
+	background-color: #8f8e8c;
+}
+
+.footer {
+	background-color: #8f8e8c;
+	height: 350px;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	postion: relative;
+}
+
+.footer .footer-content{
+	/*border: 1px solid black;*/
+	height: 300px;
+	display: flex;
+}
+
+.footer .footer-content .footer-section {
+	flex: 1;
+	padding: 25px;
+	text-align: center;
+	/*border: 1px solid white;*/
+}
+
+.footer .footer-content .navi .Navigation-footer-h4{
+	width: 100%;
+	font-family: arial, sans-serif;
+	font-weight: 700;
+	color: #70d308;
+	padding: 0px;
+	padding-bottom: 10px;
+	float: left; 
+	text-transform: uppercase;
+}
+
+.footer .footer-content .navi .Navigation-footer ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer .footer-content .navi .Navigation-footer li {
+    padding: 5px;
+	padding-left: 0px;
+}
+.footer .footer-content .navi .Navigation-footer a:hover, a:focus, a:active {
+    color: #70d308;
+    text-decoration: none;
+}
+.footer .footer-content .navi .Navigation-footer li a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+.footer .footer-content .navi .Navigation-footer li a {
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 16px;
+	font-weight: 100;
+	text-transform: none;
+	transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: #fff;
+}
+.footer .footer-content .navi .Navigation-footer li a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #8f8e8c;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+.footer .footer-content .navi .Navigation-footerli a:active::before {
+    background-color: #000;
+}
+.footer .footer-content .navi .Navigation-footerli a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+	/* begin of footer-kontakt */
+
+.footer .footer-content .kontakt .kontakt-footer-h4{
+	width: 100%;
+	font-family: arial, sans-serif;
+	font-weight: 700;
+	color: #70d308;
+	padding: 0px;
+	padding-bottom: 10px;
+	float: left; 
+	text-transform: uppercase;
+}
+
+.footer .footer-content .kontakt #dach-footer{
+	color: white;
+	font-family: arial, sans-serif;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+.footer .footer-content .kontakt #adresse-footer{
+	color: #fff;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	
+}
+
+.footer .footer-content .kontakt .kontakt-tel-email{
+	color: #fff;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	padding-top: 10px;
+}
+
+.footer .footer-content .kontakt .kontakt-sybmole{
+	color: #70d308;
+}
+
+.footer .footer-content .kontakt #span-website-www{
+	color: #70d308;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	padding-top: 10px;
+}
+
+.footer .footer-content .kontakt #span-website-name{
+	color: #fff;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	padding-top: 10px;
+}
+	/* begin of footer-rechtliches*/
+	
+.footer .footer-content .rechtliches .rechtliches-footer-h4 {
+	width: 100%;
+	font-family: arial, sans-serif;
+	font-weight: 700;
+	color: #70d308;
+	padding: 0px;
+	padding-bottom: 10px;
+	float: left; 
+	text-transform: uppercase;
+}	
+ 
+.footer .footer-content .rechtliches .impressum-footer{
+	color: #fff;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	padding-top: 10px;
+} 
+
+	/*begin of impressum-footer*/
+
+.footer .footer-content .rechtliches a:hover, a:focus, a:active {
+    color: #70d308;
+    text-decoration: none;
+}
+.footer .footer-content .rechtliches a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+.footer .footer-content .rechtliches a {
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 16px;
+	font-weight: 100;
+	text-transform: none;
+	transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: #fff;
+}
+
+.footer .footer-content .rechtliches a:active::before {
+    background-color: #000;
+}
+.footer .footer-content .rechtliches a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+	/* begin of footer-bottom */
+	
+.footer .footer-bottom {
+	background-color: #8f8e8c;
+	height: 50px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+}
+
+.footer .footer-bottom #copyright{
+	 color: #70d308;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
